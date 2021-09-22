@@ -2,7 +2,6 @@
   <div>
     <about></about>
     <featured-projects></featured-projects>
-    <footer-contact></footer-contact>
   </div>
 </template>
 
@@ -10,14 +9,13 @@
 
 import About from "@/components/About.vue"
 import FeaturedProjects from "@/components/FeaturedProjects.vue"
-import FooterContact from "@/components/FooterContact.vue"
+// import Footer from "@/components/Footer.vue"
 
 export default {
   name: 'Home',
   components: {
     About,
-    FeaturedProjects,
-    FooterContact
+    FeaturedProjects
   }
 }
 </script>

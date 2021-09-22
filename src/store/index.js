@@ -15,38 +15,47 @@ export default new Vuex.Store({
     bio2: `I’m currently attending Tech Elevator to forge new skills in full-stack software development. 
         After graduation, I’m looking for an entry-level Software Developer role at a team-oriented company 
         where I can explore new technologies and create meaningful projects.`,
+    email: "mailto:nolan2556@gmail.com",
+    githubLink: "https://github.com/NolanCarbin",
+    linkedInLink: "https://www.linkedin.com/in/nolancarbin/",
+    resumeLink: "https://drive.google.com/file/d/1-WqkRFc4fq5SlDrbwsoMIFrz2kwn_MFe/view?usp=sharing",
     projects: [
       {
         name: "TEnmo",
-        description: "",
-        link: "#",
+        whatItIs: "hello",
+        howItWasBuilt: "yes",
+        functionality: ["this", "then", "there"],
+        shortBio: "A virtual payment transfer service used to send and receive money from registered users.",
+        link: "https://github.com/NolanCarbin/TEnmo",
         isFeatured: true
       },
       {
         name: "Vending Machine",
-        description: "",
-        link: "#",
+        whatItIs: "",
+        howItWasBuilt: "",
+        functionality: [],
+        shortBio: "A vending machine CLI application that allows users to feed money, select products, and finish their transactions to receive change.",
+        link: "https://github.com/NolanCarbin/Vendo-Matic-800",
         isFeatured: true
       },
       {
         name: "Pathfinding Builder",
-        description: "",
-        link: "#",
+        whatItIs: "",
+        howItWasBuilt: "",
+        functionality: [],
+        shortBio: "A Tkinter GUI application that displays a grid where the user can move two end points around and visualize different pathfinding algorithms.",
+        link: "https://github.com/NolanCarbin/Pathfinding-Builder",
         isFeatured: true
       },
       {
         name: "Dungeon Wizard",
-        description: "",
-        link: "#",
+        whatItIs: "",
+        howItWasBuilt: "",
+        functionality: [],
+        shortBio: "A Roguelike 2D game, that includes randomly generated floors, monsters, bosses, and items. The player plays as a wizard, traversing multiple rooms and floors, searching for the boss room.",
+        link: "https://github.com/NolanCarbin/15-112_Term_Project",
         isFeatured: true
-      },
-      {
-        name: "aaa",
-        description: "",
-        link: "#",
-        isFeatured: false
       }
-      
     ]
   },
   mutations: {
