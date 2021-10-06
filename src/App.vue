@@ -1,7 +1,9 @@
 <template>
   <div>
-    <nav-bar id="nav"></nav-bar>
-    <router-view></router-view>
+    <nav-bar></nav-bar>
+    <div id="body">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -24,12 +26,17 @@ export default {
     margin: 0;
     padding: 0;
   }
-  #nav {
-    background-color: lavender;
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+  #body {
+    margin-top: 130px;
   }
+
+  :root {
+    --main-color: #0b2545;
+    --secondary-color: #134074;
+    --light-color: #8da9c4;
+    --light-color2: #eef4ed;
+
+  }
+
 </style>
