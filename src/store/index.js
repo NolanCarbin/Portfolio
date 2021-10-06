@@ -36,7 +36,7 @@ export default new Vuex.Store({
         functionality: [],
         shortBio: "A vending machine CLI application that allows users to feed money, select products, and finish their transactions to receive change.",
         link: "https://github.com/NolanCarbin/Vendo-Matic-800",
-        isFeatured: true
+        isFeatured: false
       },
       {
         name: "Pathfinding Builder",
@@ -55,6 +55,24 @@ export default new Vuex.Store({
         shortBio: "A Roguelike 2D game, that includes randomly generated floors, monsters, bosses, and items. The player plays as a wizard, traversing multiple rooms and floors, searching for the boss room.",
         link: "https://github.com/NolanCarbin/15-112_Term_Project",
         isFeatured: true
+      },
+      {
+        name: "Opentap",
+        whatItIs: "",
+        howItWasBuilt: "Implemented using Object-Orientated Programming, Java, Spring Boot, PostgreSQL, JDBC, Vue.js, MVC, and RESTful APIs",
+        functionality: [],
+        shortBio: "Team developed a full-stack web application used for searching for breweries in the Colorado area. Users can either create an account to leave reviews on beers listed by each brewery, or register as a brewer to add and update their own brewery's information.",
+        link: "",
+        isFeatured: true
+      },
+      {
+        name: "Restaurant Finder",
+        whatItIs: "",
+        howItWasBuilt: "",
+        functionality: [],
+        shortBio: "",
+        link: "",
+        isFeatured: false
       }
     ]
   },
