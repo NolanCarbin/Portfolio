@@ -8,10 +8,7 @@ export default new Vuex.Store({
     headline: "Hi, I'm Nolan!",
     role: "Full stack software developer",
     bio: `I'm a highly motivated and goal-orientated individual with a passion for understanding how things work. 
-        I enjoy taking on new challenges and working with others to create quality products. 
-        During my time in the music industry, I developed my leadership and communication skills by leading 
-        a 25-member stage crew and managing the logistics of different productions and concerts. 
-        I excel at finding new ways to improve upon solutions and keeping calm in a fast-paced environment. `,
+        I enjoy taking on new challenges and working with others to create quality products.`,
     bio2: `I’m currently attending Tech Elevator to forge new skills in full-stack software development. 
         After graduation, I’m looking for an entry-level Software Developer role at a team-oriented company 
         where I can explore new technologies and create meaningful projects.`,
